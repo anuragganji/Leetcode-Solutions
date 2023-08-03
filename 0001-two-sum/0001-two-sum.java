@@ -12,7 +12,7 @@ class Solution {
                boolean flag = false;
                //to find the index of the pair
                for(int j=0;j<nums.length;j++){
-                   //recording the index at solution pair
+                   //recording the index at the solution pair
                    if(nums[j]==nums[i] || nums[j]==target-nums[i]){
                        if(!flag){
                            first = j;
@@ -24,7 +24,7 @@ class Solution {
                        }
                    }
                }
-               //if same number
+               //if it is the same number and the same index
                //if it is half the target
                if(first==second){
                    continue;
