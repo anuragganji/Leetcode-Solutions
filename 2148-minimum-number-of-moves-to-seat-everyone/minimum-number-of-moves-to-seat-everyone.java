@@ -17,7 +17,6 @@ class Solution {
             }
             count += Math.abs(empty)*1; 
         }
-        System.out.println(Arrays.toString(positions));
         return count;
     }
 }
