@@ -3,9 +3,7 @@ class Solution {
         if (x == 0 || x == 1) {
             return x;
         }
-        int i=1;
-        int j = x;
-        int result =0;
+        int i=1, j = x, result =0;
         while(i<=j){
             int mid = i+(j-i)/2;
             if(x==mid*mid){
